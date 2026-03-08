@@ -178,3 +178,23 @@ Outputs may include:
 - visualization outputs
 
 ---
+### Unified Agentic Workflow
+
+Although the systems covered in this survey target different data management tasks, most of them can be understood through a shared agentic pipeline. At a high level, an agent receives a user request, reasons about the task, selects appropriate tools, executes actions, and iteratively refines the result using feedback and memory.
+
+```text
+User Instruction / Task
+          ↓
+Task Understanding
+          ↓
+Reasoning & Planning
+          ↓
+Tool Selection and Invocation
+          ↓
+Execution on Data / Systems
+          ↓
+Memory, Context, and Intermediate State
+          ↓
+Feedback, Verification, and Refinement
+          ↓
+Final Output / Action
