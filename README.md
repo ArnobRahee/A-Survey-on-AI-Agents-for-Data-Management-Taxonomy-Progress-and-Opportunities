@@ -1,200 +1,85 @@
+# A Survey on AI Agents for Data Management: Taxonomy, Progress, and Opportunities
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![](https://img.shields.io/github/last-commit/ArnobRahee/A-Survey-on-AI-Agents-for-Data-Management-Taxonomy-Progress-and-Opportunities?color=blue) [![Stars](https://img.shields.io/github/stars/ArnobRahee/A-Survey-on-AI-Agents-for-Data-Management-Taxonomy-Progress-and-Opportunities?color=blue)](https://github.com/ArnobRahee/A-Survey-on-AI-Agents-for-Data-Management-Taxonomy-Progress-and-Opportunities) [![Forks](https://img.shields.io/github/forks/ArnobRahee/A-Survey-on-AI-Agents-for-Data-Management-Taxonomy-Progress-and-Opportunities?color=blue&label=Fork)](https://github.com/ArnobRahee/A-Survey-on-AI-Agents-for-Data-Management-Taxonomy-Progress-and-Opportunities)
+
+This repository maintains the paper list for our survey: **"A Survey on AI Agents for Data Management: Taxonomy, Progress, and Opportunities"**, submitted to *ACM Computing Surveys (CSUR)*.
+
+> **Authors:** Arnob Rahee and Arijit Khan, Bowling Green State University
+
+
+
+## Content
+
+- [A Survey on AI Agents for Data Management: Taxonomy, Progress, and Opportunities](#a-survey-on-ai-agents-for-data-management-taxonomy-progress-and-opportunities)
+  - [Content](#content)
+- [AI Agents for Data Management](#ai-agents-for-data-management)
+  - [Related Surveys](#related-surveys)
+
+---
+
 # AI Agents for Data Management
 
-**A Survey on AI Agents for Data Management: Taxonomy, Systems, and Future Directions**
-
-This repository accompanies our survey paper on the emerging intersection of **AI agents and data management systems**. Recent advances in **large language models (LLMs)** have enabled autonomous agents capable of reasoning, planning, and interacting with external tools, opening new possibilities for automating complex data workflows.
-
-The goal of this survey is to **systematically analyze how LLM-based agents are being applied to core data management tasks**, and to provide a **unified taxonomy of agentic architectures, capabilities, and system designs**.
-
----
-
-# Overview
-
-Traditional data management systems rely on manually designed pipelines, rule-based scripts, and query optimization techniques. With the emergence of **LLM-powered agents**, many of these workflows can now be automated through natural language instructions combined with reasoning, planning, and tool execution.
-
-This survey studies how agentic systems support tasks such as:
-
-- Data cleaning
-- Data integration
-- ETL pipeline automation
-- Query generation
-- Database administration
-- Data validation
-- Data analysis
-
-The paper provides a **comprehensive overview of the architectural patterns and design principles** behind these systems.
-
----
-
-# Survey Contributions
-
-## 1. Unified Taxonomy of Agentic Systems
-
-We introduce a taxonomy for analyzing AI agents in data management based on:
-
-- **Agent architecture** (single-agent vs multi-agent)
-- **Orchestration strategies**
-- **Planning mechanisms**
-- **Memory systems**
-- **External tool integration**
-- **Supported data modalities**
-
-This taxonomy helps organize a rapidly growing ecosystem of LLM-based agent frameworks.
-
----
-
-## 2. Systematic Review of Existing Systems
-
-The survey analyzes several emerging systems that apply LLM agents to data workflows, including:
-
-- CleanAgent
-- DocETL
-- InsightPilot
-- WaitGPT
-- Jupybara
-- DataGovAgent
-- other recent LLM-based agent frameworks
-
-Each system is evaluated based on:
-
-- orchestration model
-- planning capability
-- memory mechanisms
-- scalability
-- tool usage
-- supported data types
+| NO | Data Management Task | Paper | Venue | Year | Publication | Link |
+|:--:|:---------------------|:------|:------|:----:|:------------|:-----|
+| 1 | Data Cleaning | Data Interpreter: An LLM Agent for Data Science | ACL 2025 Findings | 2025 | Published | [Link](https://aclanthology.org/2025.findings-acl.1016/) |
+| 2 | Data Cleaning | DS-Agent: Automated Data Science by Empowering LLMs with Case-Based Reasoning | ICML 2024 | 2024 | Published | [Link](https://proceedings.mlr.press/v235/guo24b.html) |
+| 3 | Data Cleaning | Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow | ICLR 2024 Workshop (LLM Agents) | 2024 | Published | [Link](https://iclr.cc/virtual/2024/22171) |
+| 4 | Data Cleaning | Lambda: A Large Model Based Data Agent | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2407.175355) |
+| 5 | Data Cleaning | CleanAgent: Automating Data Standardization with LLM-Based Agents | VLDB 2025 Workshop (DATAI) | 2025 | Published | [Link](https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/DATAI/DATAI25_8.pdf) |
+| 6 | Data Cleaning | AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions | OpenReview | 2025 | Preprint | [Link](https://openreview.net/forum?id=09LEjbLcZW) |
+| 7 | Data Cleaning | AutoML-Agent: A Multi-Agent LLM Framework for Full-Pipeline AutoML | ICML 2025 | 2025 | Published | [Link](https://dl.acm.org/doi/10.5555/3780338.3782723) |
+| 8 | Data Cleaning | AutoDCWorkflow: LLM-Based Data Cleaning Workflow Auto-Generation and Benchmark | EMNLP 2025 Findings | 2025 | Published | [Link](https://aclanthology.org/2025.findings-emnlp.410/) |
+| 9 | Entity Resolution | Multi-Agent RAG Framework for Entity Resolution: Beyond Single-LLM Approaches | Computers (MDPI) | 2025 | Published | [Link](https://aclanthology.org/2025.findings-acl.1016/) |
+| 10 | Entity Resolution | Structured Multi-Step Reasoning for Entity Matching Using Large Language Model | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2511.22832) |
+| 11 | Entity Resolution | Harmonia: Interactive Data Harmonization with LLM Agents | NOVAS | 2025 | Preprint | [Link](https://arxiv.org/abs/2502.07132) |
+| 12 | Entity Resolution | Lambda: A Large Model Based Data Agent | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2407.175355) |
+| 13 | Schema Matching | Agent-OM: Leveraging LLM Agents for Ontology Matching | PVLDB | 2024 | Published | [Link](https://www.vldb.org/pvldb/vol18/p516-qiang.pdf) |
+| 14 | Schema Matching | LLMA: LLM Assisted Multi-Agent Dialogue for Ontology Alignment | AAMAS 2024 | 2024 | Published | [Link](https://dl.acm.org/doi/abs/10.5555/3635637.3663238) |
+| 15 | ETL Automation | DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing | PVLDB | 2025 | Published | [Link](https://www.vldb.org/pvldb/vol18/p3035-shankar.pdf) |
+| 16 | ETL Automation | IntelligentETL: Intelligent ETL for Enterprise Software Using Unstructured Data | J. Software Eng. & Apps | 2025 | Published | [Link](https://doi.org/10.4236/jsea.2025.181001) |
+| 17 | ETL Automation | ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines | PVLDB | 2025 | Published | [Link](https://www.vldb.org/pvldb/vol19/p84-jin.pdf) |
+| 18 | Text-to-SQL | ExeSQL: Self-Taught Text-to-SQL with Execution-Driven Bootstrapping | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2505.17231) |
+| 19 | Text-to-SQL | MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL | COLING 2025 | 2025 | Published | [Link](https://aclanthology.org/2025.coling-main.36/) |
+| 20 | Text-to-SQL | SQLFixAgent: Semantic-Accurate Text-to-SQL via Multi-Agent Collaboration | AAAI 2025 | 2025 | Published | [Link](https://dl.acm.org/doi/10.1609/aaai.v39i1.31979) |
+| 21 | Text-to-SQL | MageSQL: A Multi-Agent Framework for Text to SQL Applications with LLMs | ACM SIGMOD Demo | 2024 | Published | [Link](https://dl.acm.org/doi/10.1145/3627673.3679216) |
+| 22 | Text-to-SQL | Intelli-Dispatch-SQL: An LLM-Based Agent for Reliable Text-to-SQL | Energy and AI | 2025 | Published | [Link](https://doi.org/10.1016/j.egyai.2025.100591) |
+| 23 | Text-to-SQL | Optimizing Text-to-SQL via Integration of Intelligent Agents and LLMs | Info. Processing & Mgmt. | 2025 | Published | [Link](https://dl.acm.org/doi/abs/10.1016/j.ipm.2025.104136) |
+| 24 | SQL Query Optimization | QUITE: A Query Rewrite System Beyond Rules with LLM Agents | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2506.07675) |
+| 25 | SQL Query Optimization | GenDB: The Next Generation of Query Processing - Synthesized, Not Engineered | arXiv | 2026 | Preprint | [Link](https://arxiv.org/abs/2603.02081) |
+| 26 | Database Tuning | AgentTune: An Agent-Based LLM Framework for Database Knob Tuning | Proc. ACM Manag. Data | 2025 | Published | [Link](https://dl.acm.org/doi/10.1145/3769758) |
+| 27 | Database Tuning | StorageXTuner: LLM Agent-Driven Tuning for Heterogeneous Storage Systems | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2510.25017) |
+| 28 | Database Tuning | AMAZe: A Multi-Agent Zero-Shot Index Advisor for Relational Databases | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2508.16044) |
+| 29 | Database Tuning | Panda: Performance Debugging for Databases Using LLM Agents | Amazon Science | 2024 | Published | [Link](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents) |
+| 30 | Database Tuning | AskDB: An LLM Agent for Natural Language Interaction with Relational DBs | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2511.16131) |
+| 31 | Multi-Modal Data Management | XMODE: Explainable Multi-Modal Data Exploration in Natural Language via LLM | arXiv | 2024 | Preprint | [Link](https://arxiv.org/abs/2412.18428) |
+| 32 | Multi-Modal Data Management | M2EX: A Multimodal Conversational Agent for Tabular Data Analysis | IEEE ICDMW 2025 | 2025 | Published | [Link](https://ieeexplore.ieee.org/document/11415881) |
+| 33 | Multi-Modal Data Management | DataCross: Unified Benchmark and Agent Framework for Cross-Modal Analysis | arXiv | 2026 | Preprint | [Link](https://arxiv.org/abs/2601.21403) |
+| 34 | Multi-Modal Data Management | HM-RAG: Hierarchical Multi-Agent Multimodal Retrieval Augmented Generation | ACM MM 2025 | 2025 | Published | [Link](https://dl.acm.org/doi/epdf/10.1145/3746027.3754761) |
+| 35 | Multi-Modal Data Management | LightVA: Lightweight Visual Analytics with LLM Agent-Based Task Planning | IEEE TVCG | 2024 | Published | [Link](https://ieeexplore.ieee.org/abstract/document/10753451) |
+| 36 | Data Governance & Cataloging | DataGovBench: Benchmarking LLM Agents for Real-World Data Governance | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2512.04416) |
+| 37 | Data Governance & Cataloging | Data Product MCP: Chat with Your Enterprise Data | arXiv | 2026 | Preprint | [Link](https://arxiv.org/abs/2601.08687) |
+| 38 | Semantic Web & Knowledge Graph Engineering | KG-Agent: Efficient Autonomous Agent for Complex Reasoning over KG | ACL 2025 | 2025 | Unpublished | [Link](https://arxiv.org/abs/2402.11163) |
+| 39 | Semantic Web & Knowledge Graph Engineering | GR-Agent: Adaptive Graph Reasoning Agent under Incomplete Knowledge | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2512.14766) |
+| 40 | Semantic Web & Knowledge Graph Engineering | From Text to Trust: LLM Multi-Agent System for ADAS KG Construction | Jonkoping Univ. (Thesis) | 2025 | Published | [Link](https://hj.diva-portal.org/smash/get/diva2:1972482/FULLTEXT01.pdf) |
+| 41 | Semantic Web & Knowledge Graph Engineering | AgentNet: Decentralized Evolutionary Coordination for LLM Multi-Agent | arXiv | 2025 | Unpublished | [Link](https://arxiv.org/abs/2504.00587) |
+| 42 | Semantic Web & Knowledge Graph Engineering | ChattyKG: Multi-Agent AI for Conversational QA over Knowledge Graphs | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2511.20940) |
+| 43 | Semantic Web & Knowledge Graph Engineering | KARMA: Leveraging Multi-Agent LLMs for Automated KG Enrichment | arXiv | 2025 | Unpublished | [Link](https://arxiv.org/abs/2502.06472) |
+| 44 | Semantic Web & Knowledge Graph Engineering | AGENTiGraph: Multi-Agent KG Framework for Domain-Specific LLM Chatbots | arXiv | 2025 | Unpublished | [Link](https://arxiv.org/abs/2508.02999) |
+| 45 | Semantic Web & Knowledge Graph Engineering | MAC-KG: Multi-Agent Collaborative Framework for Constructing KGs from Text | IEEE ICKG 2024 | 2024 | Published | [Link](https://ieeexplore.ieee.org/document/10825161) |
 
 ---
 
-## 3. Data Lifecycle Perspective
-
-We study how agentic systems operate across the **entire data lifecycle**.
-
-| Data Management Task | Description |
-|---------------------|-------------|
-| Data Cleaning | Detecting and repairing data errors |
-| Data Integration | Schema matching and entity resolution |
-| ETL Automation | Data transformation pipelines |
-| Query Optimization | Improving database performance |
-| Database Administration | Autonomous system tuning |
-| Data Validation | Ensuring correctness and consistency |
+## Related Surveys
+| NO | Paper | Venue | Year | Link |
+|:---|:------|:------|:-----|:-----|
+| 1 | LLM/Agent-as-Data-Analyst: A Survey | arXiv | 2025 | [Link](https://arxiv.org/abs/2509.23988) |
+| 2 | A Survey of LLM x Data | arXiv | 2025 | [Link](https://arxiv.org/abs/2505.18458) |
+| 3 | Large Language Model-Based Data Science Agent: A Survey | arXiv | 2025 | [Link](https://arxiv.org/abs/2508.02744) |
+| 4 | A Survey of Data Agents: Emerging Paradigm or Overstated Hype? | arXiv | 2025 | [Link](https://arxiv.org/abs/2510.23587) |
 
 ---
 
-## 4. Agentic Workflow Architecture
 
-Most agentic systems for data management follow a common architectural workflow that combines **LLM reasoning with external data tools and execution environments**.
 
-Unlike traditional data pipelines, these systems rely on an **LLM-driven control loop** where the agent interprets user instructions, generates plans, invokes tools, and iteratively refines its outputs.
 
-A typical workflow consists of the following stages:
 
-### 1. User Instruction
-The process begins with a natural language instruction from the user.  
-This instruction may request tasks such as:
-
-- cleaning a dataset
-- generating SQL queries
-- building ETL pipelines
-- validating data quality
-- performing exploratory data analysis
-
-The instruction is provided to the agent along with relevant context such as schemas, datasets, or metadata.
-
----
-
-### 2. Reasoning and Planning
-
-The LLM agent interprets the instruction and generates a **structured plan** describing how the task should be executed.
-
-Planning strategies used by agentic systems include:
-
-- Chain-of-Thought reasoning
-- ReAct-style reasoning and acting
-- multi-step task decomposition
-- iterative refinement
-
-This planning stage determines which tools should be invoked and in what order.
-
----
-
-### 3. Tool Invocation
-
-Once a plan is produced, the agent interacts with **external tools and execution environments** to perform concrete operations.
-
-Common tools used by agentic data systems include:
-
-- SQL engines
-- Python interpreters
-- data cleaning libraries
-- APIs
-- database management systems
-- analytics platforms
-
-These tools allow the agent to move beyond text generation and perform **actual data operations**.
-
----
-
-### 4. Memory and Context Management
-
-Many systems maintain memory to preserve context across reasoning steps.
-
-Memory mechanisms may include:
-
-- conversation history
-- intermediate execution results
-- retrieved documents or metadata
-- vector databases for long-term memory
-
-This allows agents to maintain coherence across multi-step workflows.
-
----
-
-### 5. Feedback and Iterative Execution
-
-After executing an action, the system evaluates the output and determines whether the task has been completed successfully.
-
-If errors are detected, the agent may:
-
-- revise its plan
-- correct generated code
-- re-run queries
-- refine transformations
-
-This **closed feedback loop** enables autonomous task execution.
-
----
-
-### 6. Final Output
-
-Once the workflow converges, the system returns the final result to the user.
-
-Outputs may include:
-
-- cleaned datasets
-- SQL queries
-- analytical reports
-- transformed data pipelines
-- visualization outputs
-
----
-### Unified Agentic Workflow
-
-Although the systems covered in this survey target different data management tasks, most of them can be understood through a shared agentic pipeline. At a high level, an agent receives a user request, reasons about the task, selects appropriate tools, executes actions, and iteratively refines the result using feedback and memory.
-
-```text
-User Instruction / Task
-          ↓
-Task Understanding
-          ↓
-Reasoning & Planning
-          ↓
-Tool Selection and Invocation
-          ↓
-Execution on Data / Systems
-          ↓
-Memory, Context, and Intermediate State
-          ↓
-Feedback, Verification, and Refinement
-          ↓
-Final Output / Action
