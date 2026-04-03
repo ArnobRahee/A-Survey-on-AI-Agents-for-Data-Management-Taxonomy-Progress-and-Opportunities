@@ -49,7 +49,7 @@ This repository maintains the paper list for our survey: **"A Survey on AI Agent
 | 26 | Database Tuning | AgentTune: An Agent-Based LLM Framework for Database Knob Tuning | Proc. ACM Manag. Data | 2025 | Published | [Link](https://dl.acm.org/doi/10.1145/3769758) |
 | 27 | Database Tuning | StorageXTuner: LLM Agent-Driven Tuning for Heterogeneous Storage Systems | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2510.25017) |
 | 28 | Database Tuning | AMAZe: A Multi-Agent Zero-Shot Index Advisor for Relational Databases | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2508.16044) |
-| 29 | Database Tuning | Panda: Performance Debugging for Databases Using LLM Agents | Amazon Science | 2024 | Published | [Link](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents) |
+| 29 | Database Tuning | Panda: Performance Debugging for Databases Using LLM Agents | CIDR | 2024 | Published | [Link](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents) |
 | 30 | Database Tuning | AskDB: An LLM Agent for Natural Language Interaction with Relational DBs | arXiv | 2025 | Preprint | [Link](https://arxiv.org/abs/2511.16131) |
 | 31 | Multi-Modal Data Management | XMODE: Explainable Multi-Modal Data Exploration in Natural Language via LLM | arXiv | 2024 | Preprint | [Link](https://arxiv.org/abs/2412.18428) |
 | 32 | Multi-Modal Data Management | M2EX: A Multimodal Conversational Agent for Tabular Data Analysis | IEEE ICDMW 2025 | 2025 | Published | [Link](https://ieeexplore.ieee.org/document/11415881) |
